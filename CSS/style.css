@@ -1,0 +1,149 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-left img {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .header-left h1 {
+    font-size: 24px;
+  }
+  
+  .header-right a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Main section styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Personal information styles */
+  .personal-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .personal-info div {
+    flex-basis: 30%;
+  }
+  
+  .personal-info h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Work experience styles */
+  .work-experience {
+    margin-bottom: 20px;
+  }
+  
+  .work-experience h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .work-experience .job {
+    margin-bottom: 10px;
+  }
+  
+  .job h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .job h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .job p {
+    margin-bottom: 5px;
+  }
+  
+  /* Education styles */
+  .education {
+    margin-bottom: 20px;
+  }
+  
+  .education h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .education .school {
+    margin-bottom: 10px;
+  }
+  
+  .school h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .school h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .school p {
+    margin-bottom: 5px;
+  }
+  
+  /* Skills styles */
+  .skills {
+    margin-bottom: 20px;
+  }
+  
+  .skills h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills li {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
