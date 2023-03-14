@@ -1,66 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>John Doe - Curriculum Vitae</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-	<div class="header">
-		<h1>John Doe</h1>
-		<h2>Web Developer</h2>
-		<p>Email: john.doe@gmail.com</p>
-		<p>Phone: 555-555-5555</p>
-		<p>Website: www.johndoe.com</p>
-	</div>
-
-	<div class="main">
-		<h3>Summary</h3>
-		<p>A web developer with 5 years of experience in creating responsive websites and web applications. Proficient in HTML, CSS, JavaScript, and PHP. Skilled in using popular web development frameworks such as React, Angular, and Vue. Experienced in developing custom WordPress themes and plugins.</p>
-
-		<h3>Skills</h3>
-		<ul>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>JavaScript</li>
-			<li>PHP</li>
-			<li>React</li>
-			<li>Angular</li>
-			<li>Vue</li>
-			<li>WordPress</li>
-		</ul>
-
-		<h3>Experience</h3>
-
-		<div class="job">
-			<h4>Web Developer - ABC Company</h4>
-			<p>January 2018 - Present</p>
-			<ul>
-				<li>Developed and maintained the company's website using WordPress and custom PHP code.</li>
-				<li>Created a custom WordPress theme that improved website speed and performance by 30%.</li>
-				<li>Implemented responsive design for the website, resulting in a 50% increase in mobile traffic.</li>
-			</ul>
-		</div>
-
-		<div class="job">
-			<h4>Web Developer - XYZ Agency</h4>
-			<p>May 2015 - December 2017</p>
-			<ul>
-				<li>Developed and maintained websites for clients using HTML, CSS, and JavaScript.</li>
-				<li>Implemented responsive design for all websites, resulting in an average increase of 40% in mobile traffic.</li>
-				<li>Created web applications using popular frameworks such as React and Angular.</li>
-			</ul>
-		</div>
-
-		<h3>Education</h3>
-
-		<div class="school">
-			<h4>Bachelor of Science in Computer Science - University of California, Los Angeles</h4>
-			<p>September 2011 - June 2015</p>
-			<p>GPA: 3.8</p>
-		</div>
-
-	</div>
-
+  <header>
+    <div class="header-left">
+      <img src="profile.jpg" alt="Profile photo">
+      <h1>John Doe</h1>
+    </div>
+    <div class="header-right">
+      <a href="#">Download CV</a>
+    </div>
+  </header>
+  <main>
+    <section class="personal-info">
+      <div>
+        <h2>Personal Information</h2>
+        <p><strong>Address:</strong> 123 Main Street, Anytown, USA</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> john.doe@example.com</p>
+      </div>
+      <div>
+        <img src="profile.jpg" alt="Profile photo">
+      </div>
+    </section>
+    <section class="work-experience">
+      <h2>Work Experience</h2>
+      <div class="job">
+        <h3>Software Engineer</h3>
+        <h4>ABC Company</h4>
+        <p>June 2018 - Present</p>
+        <ul>
+          <li>Developed and maintained web applications using React and Node.js</li>
+          <li>Collaborated with cross-functional teams to design and implement new features</li>
+          <li>Optimized application performance through code and database optimizations</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Web Developer</h3>
+        <h4>XYZ Agency</h4>
+        <p>January 2016 - June 2018</p>
+        <ul>
+          <li>Developed responsive websites using HTML, CSS, and JavaScript</li>
+          <li>Worked closely with clients to understand and implement their requirements</li>
+          <li>Managed and maintained websites using CMS platforms</li>
+        </ul>
+      </div>
+    </section>
+    <section class="education">
+      <h2>Education</h2>
+      <div class="school">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <h4>University of ABC</h4>
+        <p>September 2012 - June 2016</p>
+        <p>Graduated with honors</p>
+      </div>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+  </main>
 </body>
 </html>
