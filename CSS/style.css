@@ -76,7 +76,7 @@ main {
 .personal-info img {
   width: 10rem;
   height: 10rem;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-top: 2rem;
 }
 
