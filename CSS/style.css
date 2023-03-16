@@ -35,16 +35,26 @@ header {
   margin-right: 1rem;
 }
 
+.header-right {
+  margin-right: 10%;
+
+
+}
 .header-right a {
   display: inline-block;
   padding: 1rem;
-  background-color: #f36f6f;
-  color: #fff;
+  color: #3a3636;
   text-decoration: none;
   border-radius: 0.3rem;
   transition: background-color 0.3s ease;
+  
+  
 }
 
+.header-right a:hover {
+  background-color: #f25050;
+  color: #ffffff;
+}
 .header-right a:hover {
   background-color: #f25050;
 }
