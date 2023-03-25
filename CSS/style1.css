@@ -8,7 +8,7 @@
   /* Body styles */
   body {
     font-family: 'Montserrat', sans-serif;
-    
+    background-color: #f8f2f2;
     line-height: 1.5;
     /* background-image: linear-gradient(to bottom right, #4b6cb7, #182848); */
   }
@@ -91,11 +91,7 @@
 }
 
 
-.content{
-    background-color: #f1aeae;
-    margin-bottom: 50%;
-    
-}
+
 
 footer {
 	background-color: #333;
@@ -147,3 +143,57 @@ footer {
 	transform: translateY(-5px);
 }
 
+.projects{
+  display: flex;
+  margin: 100px 0 150px 0;
+  justify-content: space-around;
+  
+
+}  
+
+.project1, .project2, .project3{
+  
+  flex: 50px;
+  background-color: rgb(238, 238, 238);
+  text-align: center;
+  margin: 0 100px 0 100px;
+  border-radius: 50px;
+  height: auto;
+  box-shadow: 6px 6px 100px -34px rgba(0,0,0,0.54);
+  padding: 20px;
+  
+ 
+}
+
+.project1:hover, .project2:hover, .project3:hover{
+
+  background-color: rgb(250, 230, 230);
+}
+
+.projects h3{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects p{
+  height: 100px;
+}
+.projects img{
+  margin: 10px;
+}
+
+button{
+  margin: 20px;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #f36f6f;
+  color: white;
+}
+
+button:hover{
+    transition: background-color 0.3s ease;
+    background-color: #f98989;
+}
