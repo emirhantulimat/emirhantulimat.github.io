@@ -197,3 +197,21 @@ button:hover{
     transition: background-color 0.3s ease;
     background-color: #f98989;
 }
+
+#loopOutput, #myText ,#myButton ,#myButton2, #colortext{
+
+  align-items: center;
+  display: block;
+  margin: 10px auto;
+
+}
+
+
+.JavaScript{
+  border: 1px solid black;
+  width: fit-content;
+  margin: 50px auto 50px auto;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
