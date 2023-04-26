@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fruit Collector Game</title>
+    <style>
+    button {
+        margin: auto;
+        position: relative;
+        display: flex;
+        color: rgb(7, 6, 6);
+        background-color: coral;
+        border: 0px solid black;
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        text-align: center;
+        justify-content: center;
+        padding: 15px;     
+    }
+    button:hover{
+        background-color: rgb(255, 199, 178);
+    }
+
+    h1,h2, button, p {
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    }
+    h2{
+        color: gold;
+    }
+
+    #game-area{
+        border: 2px solid black;
+        margin-top: 50px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Fruit Collector Game</h1>
+    <button id="start-btn">Start Game</button>
+    <div id="game-area"></div>
+    <p>Number of fruits collected: <span id="score">0</span></p>
+    <script src="script.js"></script>
+  </body>
+</html>
